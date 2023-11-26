@@ -1,0 +1,23 @@
+# include these other config files
+include $HOME/.config/i3/rc.conf
+include $HOME/.config/i3/workspaces.conf
+include $HOME/.config/i3/binds.conf
+
+font pango:monospace 0
+
+#######################################################################
+# silly little settings
+######################################################################
+
+# gaps
+gaps inner 5px
+gaps outer 5px
+
+# disable titles
+default_border pixel 3
+
+# border colors
+client.focused          #6c71c4 #6c71c4 #6c71c4 #6c71c4 #6c71c4
+client.focused_inactive #657b83 #657b83 #657b83 #657b83 #657b83
+client.unfocused        #586e75 #586e75 #586e75 #586e75 #586e75
+client.urgent           #dc322f #dc322f #dc322f #dc322f #dc322f

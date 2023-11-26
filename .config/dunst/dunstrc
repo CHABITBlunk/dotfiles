@@ -1,0 +1,18 @@
+
+[global]
+frame_color = "#6c71c4"
+separator_color= frame
+font = "Iosevka Nerd Font 10"
+
+[urgency_low]
+background = "#002b36"
+foreground = "#93a1a1"
+
+[urgency_normal]
+background = "#002b36"
+foreground = "#93a1a1"
+
+[urgency_critical]
+background = "#002b36"
+foreground = "#93a1a1"
+frame_color = "#d75f00"
